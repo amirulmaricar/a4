@@ -1,11 +1,13 @@
-import React from 'react';
-import { Hello } from './Hello.jsx';
-import { Info } from './Info.jsx';
+import React from "react";
+
+import GraphControls from "./components/GraphControls";
+import Floorplan from "./Floorplan";
 
 export const App = () => (
   <div>
-    <h1>Welcome to Meteor!</h1>
-    <Hello/>
-    <Info/>
+    <h1>Temperature Monitoring Dashboard</h1>
+    <GraphControls />
+    <Floorplan/>
   </div>
+
 );
